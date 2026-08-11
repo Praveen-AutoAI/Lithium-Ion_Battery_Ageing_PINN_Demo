@@ -13,25 +13,6 @@ This repository demonstrates the use of an **Inverse Physics-Informed Neural Net
 - Compare iPINN predictions with experimental capacity data
 - Investigate the effect of storage temperature on degradation
 
-## Physics Model
-
-The normalized capacity loss is represented using the semi-empirical model
-
-$$
-\operatorname{Loss}(t)=a\sqrt{t}+bt,
-$$
-
-where:
-
-- $a$ represents the diffusion-limited ageing contribution
-- $b$ represents the effective long-term linear-ageing contribution
-- $t$ represents storage time
-
-The normalized remaining capacity is
-
-$$
-Q(t)=1-\operatorname{Loss}(t).
-$$
 
 ## Repository Structure
 
