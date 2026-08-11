@@ -13,6 +13,12 @@ This repository demonstrates the use of an **Inverse Physics-Informed Neural Net
 - Compare iPINN predictions with experimental capacity data
 - Investigate the effect of storage temperature on degradation
 
+## Python Demo
+
+- **Discovery of physical system parameters** from the experimental data using the governing law
+- Use the discovered parameters to **predict the system behavior** for new environmental conditions
+- Use iPINN to **forecast beyond** the training boundary
+
 
 ## Repository Structure
 
@@ -21,8 +27,8 @@ Lithium-Ion_Battery_Ageing_PINN_Demo/
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
-├── data/
-├── images/
-├── notebooks/
+├── Lithium-ion_CalendarAgeing_Episode#1_InversePINN-Discovery-Demo.ipynb
+├── Lithium-ion_CalendarAgeing_Episode#2_InversePINN-Prediction-Demo.ipynb
+├── Lithium-ion_CalendarAgeing_Episode#3_InversePINN-Forecasting-Demo.ipynb
 └── src/
 ``
