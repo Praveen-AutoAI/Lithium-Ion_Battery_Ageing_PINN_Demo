@@ -19,6 +19,11 @@ This repository demonstrates the use of an **Inverse Physics-Informed Neural Net
 - Use the discovered parameters to **predict the system behavior** for new environmental conditions
 - Use iPINN to **forecast beyond** the training boundary
 
+## Dataset
+
+- I have used lithium-ion calendar ageing data from 2 publications in this demo.
+- Check the python project files to reach data source.
+- I was able to use a small set of ageing data since PINN is not a data hungry approach, the physics used is sufficient enough to satisfy hunger during the training process :)
 
 ## Repository Structure
 
