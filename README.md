@@ -12,6 +12,8 @@ This repository demonstrates the use of an **Inverse Physics-Informed Neural Net
 - Estimate physically interpretable ageing parameters
 - Compare iPINN predictions with experimental capacity data
 - Investigate the effect of storage temperature on degradation
+- Validate the Physics law considered.
+- Predict and forecast the ageing trajectory
 
 ## Python Demo
 
