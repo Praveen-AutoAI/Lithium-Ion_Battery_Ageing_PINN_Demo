@@ -1,7 +1,7 @@
 # Lithium-Ion_Battery_Ageing_PINN_Demo
 Demonstration of Physics Informed Neural Networks to Model Lithium-ion cell degradation. 
 
-# Lithium-Ion Battery Calendar-Ageing Modelling Using iPINNs
+# Lithium-Ion Battery Calendar-Ageing Modelling Using PINNs
 
 This repository demonstrates the use of an **Inverse Physics-Informed Neural Network (iPINN)** to identify calendar-ageing parameters of a lithium-ion battery from sparse experimental observations.
 
