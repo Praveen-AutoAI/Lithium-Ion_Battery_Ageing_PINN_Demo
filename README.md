@@ -15,11 +15,6 @@ This repository demonstrates the use of an **Inverse Physics-Informed Neural Net
 - Validate the Physics law considered.
 - Predict and forecast the ageing trajectory
 
-## Python Demo
-
-- **Discovery of physical system parameters** from the experimental data using the governing law
-- Use the discovered parameters to **predict the system behavior** for new environmental conditions
-- Use iPINN to **forecast beyond** the training boundary
 
 ## 🚀 Project Episodes
 
@@ -31,6 +26,24 @@ This repository demonstrates the use of an **Inverse Physics-Informed Neural Net
 
 * **Episode 3: THE FORECAST - Long-Term Forecasting from Partial Data**  
   Train on partial calendar ageing datasets to extract degradation parameters, extrapolate future degradation trends beyond training boundaries, and evaluate cross-condition performance.
+
+<details>
+<summary><b>Episode 1: Physical Parameter Discovery & Validation</b></summary>
+
+Implement an Inverse Physics-Informed Neural Network (iPINN) framework to identify unknown governing parameters directly from experimental data and validate the physical inference.
+</details>
+
+<details>
+<summary><b>Episode 2: Generalization to Unseen Conditions</b></summary>
+
+Utilize the discovered parameters to accurately predict physics-consistent system behavior under new environmental and operating profiles.
+</details>
+
+<details>
+<summary><b>Episode 3: Long-Term Forecasting from Partial Data</b></summary>
+
+Train on partial calendar ageing datasets to extract degradation parameters, extrapolate future degradation trends beyond training boundaries, and evaluate cross-condition performance.
+</details>
 
 ## Dataset
 
