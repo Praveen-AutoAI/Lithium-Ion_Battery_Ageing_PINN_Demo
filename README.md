@@ -21,6 +21,17 @@ This repository demonstrates the use of an **Inverse Physics-Informed Neural Net
 - Use the discovered parameters to **predict the system behavior** for new environmental conditions
 - Use iPINN to **forecast beyond** the training boundary
 
+## 🚀 Project Episodes
+
+* **Episode 1: **THE DISCOVERY** - Physical Parameter Discovery & Validation**  
+  Implement an Inverse Physics-Informed Neural Network (iPINN) framework to identify unknown parameters directly from experimental data and validate the physical inference.
+
+* **Episode 2: Generalization to Unseen Conditions**  
+  Utilize the discovered parameters to accurately predict physics-consistent system ageing behavior under new environmental.
+
+* **Episode 3: Long-Term Forecasting from Partial Data**  
+  Train on partial calendar ageing datasets to extract degradation parameters, extrapolate future degradation trends beyond training boundaries, and evaluate cross-condition performance.
+
 ## Dataset
 
 - I have used lithium-ion calendar ageing data from 2 publications in this demo.
