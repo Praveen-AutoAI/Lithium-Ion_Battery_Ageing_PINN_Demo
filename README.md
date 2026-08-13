@@ -1,20 +1,19 @@
 # Lithium-Ion_Battery_Ageing_PINN_Demo
 Demonstration of Physics Informed Neural Networks to Model Lithium-ion cell degradation. 
 
+## **Before jumping directly into these demo, just check out my blog article on PINN loss formulation step-by-step.**
+[Lithium-Ion Cell Ageing Modelling Using Inverse PINN](https://praveen-autoai.github.io/machine%20learning/engineering/2026/08/04/Lithium-Ion-Cell-Ageing-Modelling-Using-Inverse-PINN.html)
+
 # Lithium-Ion Battery Calendar-Ageing Modelling Using PINNs
 
 This repository demonstrates the use of an **Inverse Physics-Informed Neural Network (iPINN)** to identify calendar-ageing parameters of a lithium-ion battery from sparse experimental observations.
 
-## Objectives
-
-- Model lithium-ion battery calendar ageing
-- Incorporate a governing degradation equation into neural-network training
-- Estimate physically interpretable ageing parameters
-- Compare iPINN predictions with experimental capacity data
-- Investigate the effect of storage temperature on degradation
-- Validate the Physics law considered.
-- Predict and forecast the ageing trajectory
-
+## Objectives of the Demo:
+- **Formulate** a data-driven framework embedding governing calendar ageing kinetics (growth dynamics and Arrhenius temperature dependencies) into neural network loss functions.
+- **Discover** unknown physical degradation parameters using inverse neural network optimization (iPINN) on experimental capacity fade data.
+- **Quantify** temperature-driven calendar ageing mechanisms across varying thermal storage environments.
+- **Validate** the physical consistency and accuracy of the embedded degradation law against experimental benchmarks.
+- **Forecast** long-term battery capacity loss and State of Health (SoH) trajectories from partial temporal data.
 
 ## 🚀 Project Episodes
 
@@ -27,23 +26,6 @@ This repository demonstrates the use of an **Inverse Physics-Informed Neural Net
 * **Episode 3: THE FORECAST - Long-Term Forecasting from Partial Data**  
   Train on partial calendar ageing datasets to extract degradation parameters, extrapolate future degradation trends beyond training boundaries, and evaluate cross-condition performance.
 
-<details>
-<summary><b>Episode 1: Physical Parameter Discovery & Validation</b></summary>
-
-Implement an Inverse Physics-Informed Neural Network (iPINN) framework to identify unknown governing parameters directly from experimental data and validate the physical inference.
-</details>
-
-<details>
-<summary><b>Episode 2: Generalization to Unseen Conditions</b></summary>
-
-Utilize the discovered parameters to accurately predict physics-consistent system behavior under new environmental and operating profiles.
-</details>
-
-<details>
-<summary><b>Episode 3: Long-Term Forecasting from Partial Data</b></summary>
-
-Train on partial calendar ageing datasets to extract degradation parameters, extrapolate future degradation trends beyond training boundaries, and evaluate cross-condition performance.
-</details>
 
 ## Dataset
 
